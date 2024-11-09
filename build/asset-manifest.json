@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Edutech/static/css/main.f6ab7e38.css",
+    "main.js": "/Edutech/static/js/main.22a8abbf.js",
+    "index.html": "/Edutech/index.html",
+    "main.f6ab7e38.css.map": "/Edutech/static/css/main.f6ab7e38.css.map",
+    "main.22a8abbf.js.map": "/Edutech/static/js/main.22a8abbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6ab7e38.css",
+    "static/js/main.22a8abbf.js"
+  ]
+}
