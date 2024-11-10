@@ -1,10 +1,11 @@
 {
     "name": "edutech2",
-    
+    "homepage": "https://priyanshijagati.github.io/EaseAlgo",
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
@@ -16,7 +17,6 @@
         "@fortawesome/free-regular-svg-icons": "^6.6.0",
         "@fortawesome/free-solid-svg-icons": "^6.6.0",
         "@fortawesome/react-fontawesome": "^0.2.2",
-        "gh-pages": "^6.2.0",
         "react": "^18.0.0",
         "react-dom": "^18.0.0",
         "react-router-dom": "^6.27.0",
@@ -39,5 +39,9 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+        "gh-pages": "^6.2.0"
     }
 }
