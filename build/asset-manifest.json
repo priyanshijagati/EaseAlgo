@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/EaseAlgo/static/css/main.31c457a9.css",
+    "main.js": "/EaseAlgo/static/js/main.8ddb82a5.js",
+    "index.html": "/EaseAlgo/index.html",
+    "main.31c457a9.css.map": "/EaseAlgo/static/css/main.31c457a9.css.map",
+    "main.8ddb82a5.js.map": "/EaseAlgo/static/js/main.8ddb82a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31c457a9.css",
+    "static/js/main.8ddb82a5.js"
+  ]
+}
