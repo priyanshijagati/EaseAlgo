@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+
+
+/* About Us Container */
+.page-container {
+  margin: 0;
+  padding: 0;
+}
+
+.about-us-container {
+  
+  padding: 30px;
+  max-width: 1000px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+.about-us-header h1{
+  margin-top: 5%;
+}
+
+/* Section Styles */
+.about-us-header h1,
+.syllabus-section h2,
+.subjects-section h2,
+.mcqs-section h2,
+.mentor-section h2 {
+  font-size: 1.8rem;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+.subject-buttons button,
+.mcq-button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #007BFF;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+.mcq-button a{
+  text-decoration: none;
+  color: white;
+}
+.subject-buttons a{
+  color: white;
+  text-decoration: none;
+}
+
+.subject-buttons button:hover,
+.mcq-button:hover {
+  background-color: #0056b3;
+}
+
+/* Mentor Section */
+.mentor-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.mentor-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #007BFF;
+  color: white;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.footer p a{
+  text-decoration: none;
+  color: white;
+}
